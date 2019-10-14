@@ -44,7 +44,7 @@ results[0][:year]
 ```
 results["Kentucky Derby"][:year]
 ``` 
-(X) 
+(x) 
 ```
 results[:year]
 ```
