@@ -32,7 +32,22 @@ results = {
 
 ?: Which command will return "2019"?
 
-( ) `results[0]` ( ) `results[0][:year]` ( ) `results["Kentucky Derby"][:year]` (X) `results[:year]`
+( ) 
+```
+results[0]
+``` 
+( ) 
+```
+results[0][:year]
+``` 
+( ) 
+```
+results["Kentucky Derby"][:year]
+``` 
+(X) 
+```
+results[:year]
+```
 
 ?: Which line of code should we add at the "??" marker to return a Hash whose
 `:horse_name` value matches the `sought_name` that's passed in to
