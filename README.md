@@ -59,7 +59,7 @@ def find_horse_by_name(sought_name)
   horse_result = nil
   i = 0
   while i < results[:winners].length do
-    # ???
+    # ?? What Goes Here ??
     i += 1
   end
   horse_result
@@ -91,7 +91,7 @@ end
     coll << results[:winners][i][:trainer]
     i += 1
   end
-  coll #=> ???
+  coll #=> ?? What goes here ??
 ```
 
 (X) `["William I. Mott", "Claude R. McGaughey", "William I. Mott"]` ( ) `2` ( ) `3` ( ) `["William I. Mott", "Claude R. McGaughey"]`
