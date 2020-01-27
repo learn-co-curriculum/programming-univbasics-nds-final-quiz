@@ -49,10 +49,7 @@ results["Kentucky Derby"][:year]
 results[:year]
 ```
 
-?: Taking into consideration both the previous hash of horse information 
-and the method below, which line of code should we add at the "??" marker to **return a Hash** whose
-`:horse_name` value matches the `sought_name` that's passed into
-`find_horse_by_name`?
+?: Taking into consideration both the previous hash of horse information and the method below, which line of code should we add at the "??" marker to **return a Hash** whose `:horse_name` value matches the `sought_name` that's passed into `find_horse_by_name`?
 
 ```ruby
 def find_horse_by_name(sought_name)
