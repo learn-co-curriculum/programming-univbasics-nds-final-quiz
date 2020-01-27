@@ -104,13 +104,11 @@ end
 
 ( ) `Hash` of `Array` (X) `Array` of `Hash` ( ) `Hash` ( ) `Array`
 
-?: We're preparing to code a looping algorithm to collect all the `:margin`s.
-   Help us by retrieving the :margin of the **first** horse
+?: We're preparing to code a looping algorithm to collect all the `:margin`s. Help us by retrieving the :margin of the **first** horse
 
 ( ) `results[:winners][1][:margin]` ( ) `results[:winners][-1][:margin]` ( ) `results[:winners][2][:margin]` (X) `results[:winners].first[:margin]`
 
-?: We're preparing to code a looping algorithm to collect all the `:margin`s.
-Help us by retrieving the :margin of the **last** horse
+?: We're preparing to code a looping algorithm to collect all the `:margin`s. Help us by retrieving the :margin of the **last** horse
 
 ( ) `results[:winners][1][:margin]` (X) `results[:winners][-1][:margin]` ( ) `results[:winners][2][:margin]` ( ) `results[:winners].first[:margin]`
 
