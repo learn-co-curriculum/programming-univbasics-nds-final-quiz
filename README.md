@@ -112,8 +112,7 @@ end
 
 ( ) `results[:winners][1][:margin]` (X) `results[:winners][-1][:margin]` ( ) `results[:winners][2][:margin]` ( ) `results[:winners].first[:margin]`
 
-?: The code `results[:winners][0] = results[:winners].first`  will test whether
-the command `.first` operates like `[0]` when accessing an `Array`
+?: The code `results[:winners][0] = results[:winners].first`  will test whether the command `.first` operates like `[0]` when accessing an `Array`
 
 ( ) True (X) False
 
